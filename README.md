@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏥 MediBook - Full-Stack Hospital Appointment Booking System
 
 MediBook is a production-grade, enterprise healthcare web platform engineered for hospitals, medical clinics, and outpatient networks. It delivers end-to-end functionality across three distinct user roles: **Patients**, **Attending Doctors**, and **Hospital Administrators**, backed by a PostgreSQL database with Prisma ORM, JWT security, and Vercel serverless deployment compatibility.
@@ -241,3 +242,6 @@ node test-suite.js
 
 ## 📄 License
 This project is licensed under the MIT License. Developed for healthcare innovation by the MediBook Engineering Team.
+=======
+# MediBook
+>>>>>>> 9f59e0079e218df9c627c3b16fcb67ef1e6ede42
