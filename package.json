@@ -1,0 +1,28 @@
+{
+  "name": "medibook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MediBook - Full-Stack Hospital Appointment Booking System",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "seed": "cd backend && npm run seed",
+    "prisma:push": "cd backend && npm run prisma:push",
+    "prisma:generate": "cd backend && npm run prisma:generate"
+  },
+  "keywords": [
+    "hospital",
+    "appointment-booking",
+    "healthcare",
+    "react",
+    "express",
+    "prisma",
+    "postgresql",
+    "neon",
+    "vercel"
+  ],
+  "author": "MediBook Engineering Team",
+  "license": "MIT"
+}

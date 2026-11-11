@@ -1,0 +1,1002 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-01",
+      "email": "admin@medibook.com",
+      "passwordHash": "$2a$10$9fKZb/MTPKTn/.CXzMWPNe2cuBCbNRdwxKBH41t3pqY56agvkV..W",
+      "role": "ADMIN",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.307Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "usr-doc-01",
+      "email": "dr.jenkins@medibook.com",
+      "passwordHash": "$2a$10$uo/zjF1h5iK7JX0davDOW.5Y/bOV9NC3U3lkIHQ7TMyBt8IpMR6bq",
+      "role": "DOCTOR",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "usr-doc-02",
+      "email": "dr.hayes@medibook.com",
+      "passwordHash": "$2a$10$uo/zjF1h5iK7JX0davDOW.5Y/bOV9NC3U3lkIHQ7TMyBt8IpMR6bq",
+      "role": "DOCTOR",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "usr-doc-03",
+      "email": "dr.rostova@medibook.com",
+      "passwordHash": "$2a$10$uo/zjF1h5iK7JX0davDOW.5Y/bOV9NC3U3lkIHQ7TMyBt8IpMR6bq",
+      "role": "DOCTOR",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "usr-doc-04",
+      "email": "dr.vance@medibook.com",
+      "passwordHash": "$2a$10$uo/zjF1h5iK7JX0davDOW.5Y/bOV9NC3U3lkIHQ7TMyBt8IpMR6bq",
+      "role": "DOCTOR",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "usr-doc-05",
+      "email": "dr.patel@medibook.com",
+      "passwordHash": "$2a$10$uo/zjF1h5iK7JX0davDOW.5Y/bOV9NC3U3lkIHQ7TMyBt8IpMR6bq",
+      "role": "DOCTOR",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "usr-doc-06",
+      "email": "dr.chen@medibook.com",
+      "passwordHash": "$2a$10$uo/zjF1h5iK7JX0davDOW.5Y/bOV9NC3U3lkIHQ7TMyBt8IpMR6bq",
+      "role": "DOCTOR",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "usr-doc-07",
+      "email": "dr.green@medibook.com",
+      "passwordHash": "$2a$10$uo/zjF1h5iK7JX0davDOW.5Y/bOV9NC3U3lkIHQ7TMyBt8IpMR6bq",
+      "role": "DOCTOR",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "usr-doc-08",
+      "email": "dr.taylor@medibook.com",
+      "passwordHash": "$2a$10$uo/zjF1h5iK7JX0davDOW.5Y/bOV9NC3U3lkIHQ7TMyBt8IpMR6bq",
+      "role": "DOCTOR",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "usr-pat-01",
+      "email": "john.doe@example.com",
+      "passwordHash": "$2a$10$URXXndXIpa.FvKRhD/cIpeKM6WFgGue3rSaifiw2h7d8IDChwsuYS",
+      "role": "PATIENT",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "usr-pat-02",
+      "email": "jane.smith@example.com",
+      "passwordHash": "$2a$10$URXXndXIpa.FvKRhD/cIpeKM6WFgGue3rSaifiw2h7d8IDChwsuYS",
+      "role": "PATIENT",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "usr-1794367864938-w5p5li",
+      "email": "test.patient.1794367864811@example.com",
+      "passwordHash": "$2a$10$LzYgjt244pX6ooffHY5WuOT/1ayoDipsctodGcO2g9.OTlJzOZ37i",
+      "role": "PATIENT",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:31:04.938Z",
+      "updatedAt": "2026-11-11T03:31:04.938Z"
+    }
+  ],
+  "patients": [
+    {
+      "id": "pat-01",
+      "userId": "usr-pat-01",
+      "fullName": "Johnathan Doe",
+      "phone": "+1 (555) 888-0192",
+      "dateOfBirth": "1988-05-14T00:00:00.000Z",
+      "gender": "Male",
+      "bloodGroup": "O+",
+      "address": "742 Evergreen Terrace, Springfield",
+      "emergencyContact": "Jane Doe (+1 555-888-0193)",
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "pat-02",
+      "userId": "usr-pat-02",
+      "fullName": "Jane Smith",
+      "phone": "+1 (555) 443-8901",
+      "dateOfBirth": "1992-11-20T00:00:00.000Z",
+      "gender": "Female",
+      "bloodGroup": "A+",
+      "address": "404 Elm Street, Riverdale",
+      "emergencyContact": "Robert Smith (+1 555-443-8902)",
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "pat-1794367864939-ap0eao",
+      "userId": "usr-1794367864938-w5p5li",
+      "fullName": "Test Patient Registration",
+      "phone": "+1 555-909-8800",
+      "dateOfBirth": null,
+      "gender": null,
+      "bloodGroup": null,
+      "address": null,
+      "emergencyContact": null,
+      "createdAt": "2026-11-11T03:31:04.939Z",
+      "updatedAt": "2026-11-11T03:31:04.939Z"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dept-01-cardio",
+      "name": "Cardiology",
+      "description": "Comprehensive cardiovascular care including heart rhythm disorders, coronary artery disease, and preventative cardiac health.",
+      "icon": "HeartPulse",
+      "imageUrl": "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&w=800&q=80",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "dept-02-neuro",
+      "name": "Neurology",
+      "description": "Expert diagnosis and cutting-edge management of disorders affecting the brain, spinal cord, and peripheral nervous system.",
+      "icon": "Brain",
+      "imageUrl": "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=800&q=80",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "dept-03-derma",
+      "name": "Dermatology",
+      "description": "Advanced clinical and cosmetic dermatology for skin disorders, acne, eczema, psoriasis, and skin cancer screenings.",
+      "icon": "Sparkles",
+      "imageUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=800&q=80",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "dept-04-ortho",
+      "name": "Orthopedics",
+      "description": "Specialized musculoskeletal care for bone fractures, joint replacements, sports injuries, and spine conditions.",
+      "icon": "Activity",
+      "imageUrl": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "dept-05-pedia",
+      "name": "Pediatrics",
+      "description": "Compassionate healthcare for infants, children, and adolescents, from newborn wellness to developmental monitoring.",
+      "icon": "Baby",
+      "imageUrl": "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?auto=format&fit=crop&w=800&q=80",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "dept-06-genmed",
+      "name": "General Medicine",
+      "description": "Primary care and internal medicine for preventive wellness, acute illnesses, diabetes, hypertension, and long-term health.",
+      "icon": "Stethoscope",
+      "imageUrl": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "dept-07-gyne",
+      "name": "Gynecology",
+      "description": "Dedicated women’s health services including obstetrics, reproductive wellness, prenatal care, and surgical interventions.",
+      "icon": "Flower2",
+      "imageUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=80",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "dept-08-ent",
+      "name": "ENT",
+      "description": "Comprehensive treatment for ear, nose, throat, balance problems, sinus surgery, and hearing rehabilitation.",
+      "icon": "Headphones",
+      "imageUrl": "https://images.unsplash.com/photo-1666214280557-f1b5022eb634?auto=format&fit=crop&w=800&q=80",
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doc-01",
+      "userId": "usr-doc-01",
+      "departmentId": "dept-01-cardio",
+      "fullName": "Dr. Sarah Jenkins",
+      "qualification": "MD, FACC, Harvard Medical School",
+      "specialization": "Interventional Cardiology",
+      "experienceYears": 14,
+      "consultationFee": 120,
+      "biography": "Dr. Sarah Jenkins is a board-certified Interventional Cardiologist with over 14 years of clinical experience. Specializing in coronary interventions, hypertension management, and preventative cardiology, she is dedicated to evidence-based, compassionate care.",
+      "roomNumber": "Suite 302, West Wing",
+      "phone": "+1 (555) 234-5671",
+      "avatarUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80",
+      "isApproved": true,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "doc-02",
+      "userId": "usr-doc-02",
+      "departmentId": "dept-02-neuro",
+      "fullName": "Dr. Alexander Hayes",
+      "qualification": "MD, PhD, Johns Hopkins University",
+      "specialization": "Clinical Neurology & Epilepsy",
+      "experienceYears": 16,
+      "consultationFee": 140,
+      "biography": "Dr. Alexander Hayes leads our neurology division with extensive expertise in stroke rehabilitation, migraine therapeutics, neurodegenerative conditions, and advanced diagnostic electroencephalography.",
+      "roomNumber": "Suite 415, Neuro Sciences",
+      "phone": "+1 (555) 234-5672",
+      "avatarUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80",
+      "isApproved": true,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "doc-03",
+      "userId": "usr-doc-03",
+      "departmentId": "dept-03-derma",
+      "fullName": "Dr. Elena Rostova",
+      "qualification": "MD, FAAD, Stanford University",
+      "specialization": "Medical & Cosmetic Dermatology",
+      "experienceYears": 11,
+      "consultationFee": 95,
+      "biography": "Dr. Elena Rostova provides specialized care in inflammatory skin disorders, eczema, psoriasis, acne management, and dermatologic surgeries with an emphasis on skin health longevity.",
+      "roomNumber": "Suite 210, Wellness Plaza",
+      "phone": "+1 (555) 234-5673",
+      "avatarUrl": "https://images.unsplash.com/photo-1594824813626-d62f03f399eb?auto=format&fit=crop&w=800&q=80",
+      "isApproved": true,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "doc-04",
+      "userId": "usr-doc-04",
+      "departmentId": "dept-04-ortho",
+      "fullName": "Dr. Marcus Vance",
+      "qualification": "MD, FAAOS, Columbia University",
+      "specialization": "Orthopedic Surgery & Sports Medicine",
+      "experienceYears": 18,
+      "consultationFee": 130,
+      "biography": "Dr. Marcus Vance has served as an orthopedic consultant to professional athletic organizations. He specializes in minimally invasive joint arthroscopy, knee/hip replacements, and tendon repair.",
+      "roomNumber": "Suite 108, Pavilion A",
+      "phone": "+1 (555) 234-5674",
+      "avatarUrl": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=800&q=80",
+      "isApproved": true,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "doc-05",
+      "userId": "usr-doc-05",
+      "departmentId": "dept-05-pedia",
+      "fullName": "Dr. Maya Patel",
+      "qualification": "MD, FAAP, University of Pennsylvania",
+      "specialization": "General Pediatrics & Adolescent Medicine",
+      "experienceYears": 9,
+      "consultationFee": 85,
+      "biography": "Dr. Maya Patel brings a warm, family-centered approach to pediatric healthcare. She focuses on newborn nutrition, developmental milestones, childhood immunizations, and asthma management.",
+      "roomNumber": "Suite 120, Children’s Wing",
+      "phone": "+1 (555) 234-5675",
+      "avatarUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80",
+      "isApproved": true,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "doc-06",
+      "userId": "usr-doc-06",
+      "departmentId": "dept-06-genmed",
+      "fullName": "Dr. David Chen",
+      "qualification": "MD, FACP, Yale School of Medicine",
+      "specialization": "Internal Medicine & Preventative Care",
+      "experienceYears": 15,
+      "consultationFee": 90,
+      "biography": "Dr. David Chen believes in proactive, holistic medicine. He manages chronic diseases including type 2 diabetes, metabolic syndrome, lipid disorders, and geriatric health.",
+      "roomNumber": "Suite 204, East Wing",
+      "phone": "+1 (555) 234-5676",
+      "avatarUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=800&q=80",
+      "isApproved": true,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "doc-07",
+      "userId": "usr-doc-07",
+      "departmentId": "dept-07-gyne",
+      "fullName": "Dr. Rachel Green",
+      "qualification": "MD, FACOG, Northwestern University",
+      "specialization": "Obstetrics & Gynecologic Care",
+      "experienceYears": 12,
+      "consultationFee": 110,
+      "biography": "Dr. Rachel Green offers comprehensive gynecological wellness exams, high-risk prenatal management, hormonal balancing, and minimally invasive pelvic surgery.",
+      "roomNumber": "Suite 310, Women’s Center",
+      "phone": "+1 (555) 234-5677",
+      "avatarUrl": "https://images.unsplash.com/photo-1594824813626-d62f03f399eb?auto=format&fit=crop&w=800&q=80",
+      "isApproved": true,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "doc-08",
+      "userId": "usr-doc-08",
+      "departmentId": "dept-08-ent",
+      "fullName": "Dr. Robert Taylor",
+      "qualification": "MD, FACS, Duke University",
+      "specialization": "Otolaryngology & Head/Neck Surgery",
+      "experienceYears": 17,
+      "consultationFee": 115,
+      "biography": "Dr. Robert Taylor is a senior ENT specialist treating sinus pathology, sleep apnea, chronic tonsillitis, vertigo, and acoustic hearing impairments with the latest micro-surgical methods.",
+      "roomNumber": "Suite 112, East Wing",
+      "phone": "+1 (555) 234-5678",
+      "avatarUrl": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=800&q=80",
+      "isApproved": true,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    }
+  ],
+  "doctorSchedules": [
+    {
+      "id": "sched-doc-01-1",
+      "doctorId": "doc-01",
+      "dayOfWeek": 1,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-01-2",
+      "doctorId": "doc-01",
+      "dayOfWeek": 2,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-01-3",
+      "doctorId": "doc-01",
+      "dayOfWeek": 3,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-01-4",
+      "doctorId": "doc-01",
+      "dayOfWeek": 4,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-01-5",
+      "doctorId": "doc-01",
+      "dayOfWeek": 5,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-02-1",
+      "doctorId": "doc-02",
+      "dayOfWeek": 1,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-02-2",
+      "doctorId": "doc-02",
+      "dayOfWeek": 2,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-02-3",
+      "doctorId": "doc-02",
+      "dayOfWeek": 3,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-02-4",
+      "doctorId": "doc-02",
+      "dayOfWeek": 4,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-02-5",
+      "doctorId": "doc-02",
+      "dayOfWeek": 5,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-03-1",
+      "doctorId": "doc-03",
+      "dayOfWeek": 1,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-03-2",
+      "doctorId": "doc-03",
+      "dayOfWeek": 2,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-03-3",
+      "doctorId": "doc-03",
+      "dayOfWeek": 3,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-03-4",
+      "doctorId": "doc-03",
+      "dayOfWeek": 4,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-03-5",
+      "doctorId": "doc-03",
+      "dayOfWeek": 5,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-04-1",
+      "doctorId": "doc-04",
+      "dayOfWeek": 1,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-04-2",
+      "doctorId": "doc-04",
+      "dayOfWeek": 2,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-04-3",
+      "doctorId": "doc-04",
+      "dayOfWeek": 3,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-04-4",
+      "doctorId": "doc-04",
+      "dayOfWeek": 4,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-04-5",
+      "doctorId": "doc-04",
+      "dayOfWeek": 5,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-05-1",
+      "doctorId": "doc-05",
+      "dayOfWeek": 1,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-05-2",
+      "doctorId": "doc-05",
+      "dayOfWeek": 2,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-05-3",
+      "doctorId": "doc-05",
+      "dayOfWeek": 3,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-05-4",
+      "doctorId": "doc-05",
+      "dayOfWeek": 4,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-05-5",
+      "doctorId": "doc-05",
+      "dayOfWeek": 5,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-06-1",
+      "doctorId": "doc-06",
+      "dayOfWeek": 1,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-06-2",
+      "doctorId": "doc-06",
+      "dayOfWeek": 2,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-06-3",
+      "doctorId": "doc-06",
+      "dayOfWeek": 3,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-06-4",
+      "doctorId": "doc-06",
+      "dayOfWeek": 4,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-06-5",
+      "doctorId": "doc-06",
+      "dayOfWeek": 5,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-07-1",
+      "doctorId": "doc-07",
+      "dayOfWeek": 1,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-07-2",
+      "doctorId": "doc-07",
+      "dayOfWeek": 2,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-07-3",
+      "doctorId": "doc-07",
+      "dayOfWeek": 3,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-07-4",
+      "doctorId": "doc-07",
+      "dayOfWeek": 4,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-07-5",
+      "doctorId": "doc-07",
+      "dayOfWeek": 5,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-08-1",
+      "doctorId": "doc-08",
+      "dayOfWeek": 1,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-08-2",
+      "doctorId": "doc-08",
+      "dayOfWeek": 2,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-08-3",
+      "doctorId": "doc-08",
+      "dayOfWeek": 3,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-08-4",
+      "doctorId": "doc-08",
+      "dayOfWeek": 4,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "sched-doc-08-5",
+      "doctorId": "doc-08",
+      "dayOfWeek": 5,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "slotDurationMinutes": 30,
+      "isActive": true,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    }
+  ],
+  "doctorLeaves": [],
+  "appointments": [
+    {
+      "id": "apt-01",
+      "appointmentNumber": "MED-202611-0001",
+      "patientId": "pat-01",
+      "doctorId": "doc-01",
+      "date": "2026-11-15T00:00:00.000Z",
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "status": "CONFIRMED",
+      "reason": "Follow-up consultation on mild elevated blood pressure and ECG review.",
+      "notes": "Patient advised to monitor resting pulse rate and maintain low sodium intake.",
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "apt-02",
+      "appointmentNumber": "MED-202611-0002",
+      "patientId": "pat-01",
+      "doctorId": "doc-04",
+      "date": "2026-11-18T00:00:00.000Z",
+      "startTime": "14:30",
+      "endTime": "15:00",
+      "status": "PENDING",
+      "reason": "Persistent right knee ache following recreational soccer.",
+      "notes": null,
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "apt-03",
+      "appointmentNumber": "MED-202611-0003",
+      "patientId": "pat-02",
+      "doctorId": "doc-03",
+      "date": "2026-11-12T00:00:00.000Z",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "status": "CONFIRMED",
+      "reason": "Annual routine skin check and prescription refill for contact dermatitis.",
+      "notes": "Skin patch clear. Refilled topical emollient.",
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "apt-04",
+      "appointmentNumber": "MED-202611-0004",
+      "patientId": "pat-02",
+      "doctorId": "doc-06",
+      "date": "2026-11-05T00:00:00.000Z",
+      "startTime": "09:30",
+      "endTime": "10:00",
+      "status": "COMPLETED",
+      "reason": "Annual comprehensive executive physical exam and blood work panel.",
+      "notes": "All metabolic labs within normal range. Scheduled next annual checkup in 12 months.",
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "apt-05",
+      "appointmentNumber": "MED-202611-0005",
+      "patientId": "pat-01",
+      "doctorId": "doc-02",
+      "date": "2026-11-08T00:00:00.000Z",
+      "startTime": "16:00",
+      "endTime": "16:30",
+      "status": "CANCELLED",
+      "reason": "Migraine aura consultation.",
+      "cancellationReason": "Patient rescheduled due to work trip travel conflict.",
+      "createdAt": "2026-11-11T03:30:45.308Z",
+      "updatedAt": "2026-11-11T03:30:45.308Z"
+    },
+    {
+      "id": "apt-1794367865172-2z4gs2",
+      "appointmentNumber": "MED-202611-0006",
+      "patientId": "pat-1794367864939-ap0eao",
+      "doctorId": "doc-01",
+      "date": "2026-11-20T00:00:00.000Z",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "status": "CANCELLED",
+      "reason": "Automated test suite clinical consultation for blood pressure screening.",
+      "notes": "Confirmed by physician. Please arrive 10 minutes prior.",
+      "cancellationReason": "Rescheduled for next week",
+      "createdAt": "2026-11-11T03:31:05.172Z",
+      "updatedAt": "2026-11-11T03:31:05.234Z"
+    }
+  ],
+  "passwordResets": [],
+  "auditLogs": [
+    {
+      "id": "log-1794367865235-ud28dz",
+      "userId": "usr-1794367864938-w5p5li",
+      "action": "APPOINTMENT_CANCELLED",
+      "entity": "Appointment",
+      "entityId": "apt-1794367865172-2z4gs2",
+      "details": {
+        "reason": "Rescheduled for next week"
+      },
+      "ipAddress": "::1",
+      "createdAt": "2026-11-11T03:31:05.235Z"
+    },
+    {
+      "id": "log-1794367865220-ojk6pe",
+      "userId": "usr-doc-01",
+      "action": "APPOINTMENT_CONFIRMED",
+      "entity": "Appointment",
+      "entityId": "apt-1794367865172-2z4gs2",
+      "details": {
+        "status": "CONFIRMED",
+        "notes": "Confirmed by physician. Please arrive 10 minutes prior."
+      },
+      "ipAddress": "::1",
+      "createdAt": "2026-11-11T03:31:05.220Z"
+    },
+    {
+      "id": "log-1794367865172-d5ew7s",
+      "userId": "usr-1794367864938-w5p5li",
+      "action": "APPOINTMENT_CREATED",
+      "entity": "Appointment",
+      "entityId": "apt-1794367865172-2z4gs2",
+      "details": {
+        "appointmentNumber": "MED-202611-0006",
+        "doctorId": "doc-01",
+        "date": "2026-11-20",
+        "startTime": "09:00"
+      },
+      "ipAddress": "::1",
+      "createdAt": "2026-11-11T03:31:05.172Z"
+    },
+    {
+      "id": "log-1794367865165-ck3sfk",
+      "userId": "usr-doc-01",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "usr-doc-01",
+      "details": {
+        "role": "DOCTOR"
+      },
+      "ipAddress": "::1",
+      "createdAt": "2026-11-11T03:31:05.165Z"
+    },
+    {
+      "id": "log-1794367865079-qdexdo",
+      "userId": "usr-admin-01",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "usr-admin-01",
+      "details": {
+        "role": "ADMIN"
+      },
+      "ipAddress": "::1",
+      "createdAt": "2026-11-11T03:31:05.079Z"
+    },
+    {
+      "id": "log-1794367864939-00ucyp",
+      "userId": "usr-1794367864938-w5p5li",
+      "action": "PATIENT_REGISTERED",
+      "entity": "User",
+      "entityId": "usr-1794367864938-w5p5li",
+      "details": {
+        "email": "test.patient.1794367864811@example.com",
+        "fullName": "Test Patient Registration"
+      },
+      "ipAddress": "::1",
+      "createdAt": "2026-11-11T03:31:04.939Z"
+    },
+    {
+      "id": "log-01",
+      "userId": "usr-admin-01",
+      "action": "SYSTEM_INITIALIZED",
+      "entity": "System",
+      "entityId": "init",
+      "details": {
+        "message": "MediBook database initialized with default seed data."
+      },
+      "createdAt": "2026-11-11T03:30:45.308Z"
+    }
+  ]
+}
