@@ -34,7 +34,10 @@ export const AuthProvider = ({ children }) => {
         }
       } catch (err) {
         console.warn('Session verification notice:', err.message);
-        if (err.response?.status === 401) {
+        // Any HTTP error response means the session is invalid — clear it.
+        // We deliberately leave network errors (err.response === undefined) alone
+        // so a temporary backend outage doesn't log the user out.
+        if (err.response) {
           localStorage.removeItem('medibook_token');
           localStorage.removeItem('medibook_user');
           if (isMounted) {
