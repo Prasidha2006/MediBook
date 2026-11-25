@@ -1,6 +1,15 @@
 import axios from 'axios';
+import { isTokenExpired } from '../utils/token';
 
 const API_BASE_URL = import.meta.env.VITE_API_URL || '/api/v1';
+
+export const AUTH_EXPIRED_EVENT = 'medibook:unauthorized';
+
+function triggerUnauthorized() {
+  localStorage.removeItem('medibook_token');
+  localStorage.removeItem('medibook_user');
+  window.dispatchEvent(new CustomEvent(AUTH_EXPIRED_EVENT));
+}
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
@@ -15,6 +24,10 @@ api.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem('medibook_token');
     if (token) {
+      if (isTokenExpired(token)) {
+        triggerUnauthorized();
+        return Promise.reject(new axios.Cancel('Session expired'));
+      }
       config.headers.Authorization = `Bearer ${token}`;
     }
     return config;
@@ -26,26 +39,9 @@ api.interceptors.request.use(
 api.interceptors.response.use(
   (response) => response,
   (error) => {
-    const status = error.response?.status;
-
-    // Auth pages that must never be redirected away from
-    const authPages = ['/login', '/register', '/forgot-password', '/reset-password'];
-    const isOnAuthPage = authPages.some((p) =>
-      window.location.pathname.startsWith(p)
-    );
-
-    if (status === 401) {
-      // Clear all stored credentials
-      localStorage.removeItem('medibook_token');
-      localStorage.removeItem('medibook_user');
-
-      // Hard-redirect to login so React state is fully reset.
-      // Skip if already on an auth page to avoid redirect loops.
-      if (!isOnAuthPage) {
-        window.location.replace('/login');
-      }
+    if (error.response?.status === 401) {
+      triggerUnauthorized();
     }
-
     return Promise.reject(error);
   }
 );

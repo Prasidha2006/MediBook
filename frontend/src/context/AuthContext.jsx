@@ -1,9 +1,18 @@
-import React, { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState, useEffect, useCallback } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { authService } from '../services/authService';
+import { AUTH_EXPIRED_EVENT } from '../services/api';
+import { getTokenExpiryMs, isTokenExpired } from '../utils/token';
+
+const AUTH_PAGES = ['/login', '/register', '/forgot-password', '/reset-password'];
+const MAX_TIMEOUT_MS = 2147483647;
 
 export const AuthContext = createContext(null);
 
 export const AuthProvider = ({ children }) => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const [user, setUser] = useState(() => {
     try {
       const stored = localStorage.getItem('medibook_user');
@@ -15,6 +24,18 @@ export const AuthProvider = ({ children }) => {
   const [token, setToken] = useState(() => localStorage.getItem('medibook_token') || null);
   const [isLoading, setIsLoading] = useState(true);
 
+  const expireSession = useCallback(() => {
+    localStorage.removeItem('medibook_token');
+    localStorage.removeItem('medibook_user');
+    setUser(null);
+    setToken(null);
+
+    const isOnAuthPage = AUTH_PAGES.some((p) => location.pathname.startsWith(p));
+    if (!isOnAuthPage) {
+      navigate('/login', { replace: true, state: { from: location } });
+    }
+  }, [navigate, location]);
+
   // Synchronize user profile on initial mount
   useEffect(() => {
     let isMounted = true;
@@ -23,6 +44,14 @@ export const AuthProvider = ({ children }) => {
       const storedToken = localStorage.getItem('medibook_token');
       if (!storedToken) {
         if (isMounted) setIsLoading(false);
+        return;
+      }
+
+      if (isTokenExpired(storedToken)) {
+        if (isMounted) {
+          expireSession();
+          setIsLoading(false);
+        }
         return;
       }
 
@@ -56,6 +85,61 @@ export const AuthProvider = ({ children }) => {
       isMounted = false;
     };
   }, []);
+
+  // Listen for 401 / expired-token events from the Axios interceptor
+  useEffect(() => {
+    window.addEventListener(AUTH_EXPIRED_EVENT, expireSession);
+    return () => window.removeEventListener(AUTH_EXPIRED_EVENT, expireSession);
+  }, [expireSession]);
+
+  // Proactive JWT expiration timer and tab-focus/visibility re-check
+  useEffect(() => {
+    if (!token) return;
+
+    const expMs = getTokenExpiryMs(token);
+    if (expMs === null) return;
+
+    const checkExpiry = () => {
+      if (isTokenExpired(token)) {
+        expireSession();
+      }
+    };
+
+    const remainingMs = expMs - Date.now();
+    if (remainingMs <= 0) {
+      expireSession();
+      return;
+    }
+
+    const timerId = setTimeout(checkExpiry, Math.min(remainingMs, MAX_TIMEOUT_MS));
+
+    const handleVisibilityOrFocus = () => {
+      if (document.visibilityState === 'visible') {
+        checkExpiry();
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityOrFocus);
+    window.addEventListener('focus', checkExpiry);
+
+    return () => {
+      clearTimeout(timerId);
+      document.removeEventListener('visibilitychange', handleVisibilityOrFocus);
+      window.removeEventListener('focus', checkExpiry);
+    };
+  }, [token, expireSession]);
+
+  // Sync logout / session expiry across browser tabs
+  useEffect(() => {
+    const handleStorage = (event) => {
+      if (event.key === 'medibook_token' && !event.newValue) {
+        expireSession();
+      }
+    };
+
+    window.addEventListener('storage', handleStorage);
+    return () => window.removeEventListener('storage', handleStorage);
+  }, [expireSession]);
 
   const login = async (credentials) => {
     setIsLoading(true);
