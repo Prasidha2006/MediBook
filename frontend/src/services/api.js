@@ -22,18 +22,30 @@ api.interceptors.request.use(
   (error) => Promise.reject(error)
 );
 
-// Response interceptor to catch 401 unauthorized
+// Response interceptor — handle expired / invalid session globally
 api.interceptors.response.use(
   (response) => response,
   (error) => {
-    if (error.response?.status === 401) {
-      // Only clear and redirect if we had a token previously or aren't on auth pages
-      const token = localStorage.getItem('medibook_token');
-      if (token && !window.location.pathname.startsWith('/login')) {
-        localStorage.removeItem('medibook_token');
-        localStorage.removeItem('medibook_user');
+    const status = error.response?.status;
+
+    // Auth pages that must never be redirected away from
+    const authPages = ['/login', '/register', '/forgot-password', '/reset-password'];
+    const isOnAuthPage = authPages.some((p) =>
+      window.location.pathname.startsWith(p)
+    );
+
+    if (status === 401) {
+      // Clear all stored credentials
+      localStorage.removeItem('medibook_token');
+      localStorage.removeItem('medibook_user');
+
+      // Hard-redirect to login so React state is fully reset.
+      // Skip if already on an auth page to avoid redirect loops.
+      if (!isOnAuthPage) {
+        window.location.replace('/login');
       }
     }
+
     return Promise.reject(error);
   }
 );
